@@ -6,7 +6,8 @@ export const ingatlanokData = [
         price: 45000000,
         image: "/images/hero1.jpg",
         postedBy: "Kovács József",
-        location: "Budapest",
+        rooms: 3,
+        location: "Budapest"
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ export const ingatlanokData = [
         price: 25000000,
         image: "/images/hero2.jpg",
         postedBy: "Szabó Anna",
-        location: "Debrecen",
+        rooms: 1,
+        location: "Debrecen"
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ export const ingatlanokData = [
         price: 12000000,
         image: "/images/hero3.jpg",
         postedBy: "Nagy Péter",
-        location: "Szeged",
+        rooms: 4,
+        location: "Szeged"
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ export const ingatlanokData = [
         price: 32000000,
         image: "/images/hero4.jpg",
         postedBy: "Tóth László",
-        location: "Sátoraljaújhely",
+        rooms: 7,
+        location: "Sátoraljaújhely"
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ export const ingatlanokData = [
         price: 35000000,
         image: "/images/hero5.jpg",
         postedBy: "Varga Márton",
-        location: "Pécs",
+        rooms: 12,
+        location: "Pécs"
     },
     {
         id: 6,
@@ -51,6 +56,7 @@ export const ingatlanokData = [
         price: 15000000,
         image: "/images/hero1.jpg",
         postedBy: "Farkas Béla",
-        location: "Vidéki Terület",
+        rooms: 1,
+        location: "Tiszafüred"
     }
 ];
