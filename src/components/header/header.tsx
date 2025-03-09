@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { FaUser, FaUserPlus, FaBars, FaTimes } from "react-icons/fa";
+import { FaUser, FaUserPlus, FaBars } from "react-icons/fa";
 import { useState } from "react";
-import MobileMenu from "./mobileMenu";
+import MobileMenu from "./mobile/menu";
 import Animation from "./countAnimation";
 
 export default function Header() {
