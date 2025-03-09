@@ -35,20 +35,20 @@ export default function Header() {
                 </button>
                 <div className="hidden md:flex gap-6 text-[#4A4A48]">
                     <Link href="/" className="relative group">
-                        <span className="transition-all duration-300">Kezdőlap</span>
-                        <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
+                        <span className="relative z-10 transition-all duration-300 group-hover:text-[#566246]">Kezdőlap</span>
+                        <span className="absolute bottom-[-4px] left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                     <Link href="/" className="relative group">
-                        <span className="transition-all duration-300">Ingatlanok</span>
-                        <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
+                        <span className="relative z-10 transition-all duration-300 group-hover:text-[#566246]">Ingatlanok</span>
+                        <span className="absolute bottom-[-4px] left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                     <Link href="/" className="relative group">
-                        <span className="transition-all duration-300">Eladás</span>
-                        <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
+                        <span className="relative z-10 transition-all duration-300 group-hover:text-[#566246]">Eladás</span>
+                        <span className="absolute bottom-[-4px] left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                     <Link href="/" className="relative group">
-                        <span className="transition-all duration-300">Kapcsolat</span>
-                        <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
+                        <span className="relative z-10 transition-all duration-300 group-hover:text-[#566246]">Kapcsolat</span>
+                        <span className="absolute bottom-[-4px] left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                 </div>
             </div>
