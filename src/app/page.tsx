@@ -5,6 +5,9 @@ import Intro from "@/components/intro/intro";
 import Sidebar from "@/components/ingatlanok/sidebar";
 import Ingatlanok from "@/components/ingatlanok/ingatlanok";
 import Eladas from "@/components/eladas/eladas";
+import Statistics from "@/components/Statistics";
+import Newsletter from "@/components/Newsletter";
+import Footer from "@/components/footer/footer";
 import Image from "next/image";
 
 export default function Home() {
@@ -25,6 +28,9 @@ export default function Home() {
                 </div>
             </div>
             <Eladas />
+            <Statistics />
+            <Newsletter />
+            <Footer />
         </>
     );
 }
