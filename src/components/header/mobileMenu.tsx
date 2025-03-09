@@ -21,7 +21,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isMenuOpen, setIsMenuOpen }) =>
                 <div className="flex flex-col items-start px-5 gap-4 text-lg text-[#4A4A48]">
                     <Link href="/" className="w-full py-2 border-b border-[#D8DAD3] text-left">Kezdőlap</Link>
                     <Link href="/" className="w-full py-2 border-b border-[#D8DAD3] text-left">Ingatlanok</Link>
-                    <Link href="/" className="w-full py-2 border-b border-[#D8DAD3] text-left">Rólunk</Link>
+                    <Link href="/" className="w-full py-2 border-b border-[#D8DAD3] text-left">Eladás</Link>
                     <Link href="/" className="w-full py-2 text-left">Kapcsolat</Link>
                 </div>
             </div>

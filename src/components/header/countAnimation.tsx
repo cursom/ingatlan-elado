@@ -22,8 +22,14 @@ const Animation: React.FC = () => {
 
     return (
         <div className="flex gap-6">
-            <p><span className="text-[#7FA37F] font-bold">{availableCount}</span> elérhető ingatlan</p>
-            <p><span className="text-[#7FA37F] font-bold">{soldCount}</span> eladva az elmúlt hónapban</p>
+            <p className="flex items-baseline">
+                <span className="text-[#7FA37F] font-bold text-sm" style={{ width: `4ch` }}>{availableCount}</span>
+                <span>elérhető ingatlan</span>
+            </p>
+            <p className="flex items-baseline">
+                <span className="text-[#7FA37F] font-bold text-sm" style={{ width: `3.5ch` }}>{soldCount}</span>
+                <span>eladva az elmúlt hónapban</span>
+            </p>
         </div>
     );
 }

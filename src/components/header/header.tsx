@@ -43,7 +43,7 @@ export default function Header() {
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                     <Link href="/" className="relative group">
-                        <span className="transition-all duration-300">Rólunk</span>
+                        <span className="transition-all duration-300">Eladás</span>
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#566246] transition-all duration-300 group-hover:w-full"></span>
                     </Link>
                     <Link href="/" className="relative group">
