@@ -2,7 +2,8 @@
 
 import Header from "@/components/header/header";
 import Intro from "@/components/intro/intro";
-import Sidebar from "@/components/sidebar/sidebar";
+import Sidebar from "@/components/ingatlanok/sidebar";
+import Ingatlanok from "@/components/ingatlanok/ingatlanok";
 
 export default function Home() {
     return (
@@ -13,7 +14,7 @@ export default function Home() {
                 <div className="container max-w-screen-xl flex gap-6">
                     <Sidebar />
                     <main className="flex-1">
-                        {/* ingatlanok */}
+                        <Ingatlanok />
                     </main>
                 </div>
             </div>

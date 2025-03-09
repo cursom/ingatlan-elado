@@ -5,14 +5,14 @@ import Image from "next/image";
 
 export default function Sidebar() {
     return (
-        <div className="relative">
+        <div className="relative flex-shrink-0 max-w-[400px]">
             <div className="absolute top-[-70px] left-[-70px] z-[-1] w-[50%]">
                 <Image src="/svg/blob-1.svg" alt="" width={500} height={500} className="absolute top-0 left-0" />
             </div>
             <div className="absolute bottom-[-70px] right-[-70px] z-[-1] w-[50%]">
                 <Image src="/svg/blob-2.svg" alt="" width={500} height={500} className="absolute bottom-0 right-0" />
             </div>
-            <aside className="relative bg-white/60 backdrop-blur-lg rounded-3xl p-6 shadow-xl w-full max-w-[400px]">
+            <aside className="relative bg-white/60 backdrop-blur-lg rounded-3xl p-6 shadow-xl">
                 <div className="relative z-10">
                     <h2 className="text-2xl font-semibold mb-4 flex items-center justify-center gap-2">Ingatlan szűrés</h2>
                     <hr className="border-t-2 border-gray-400 opacity-75 mb-4" />
@@ -23,6 +23,9 @@ export default function Sidebar() {
                         <option value="">Válassz várost</option>
                         <option value="budapest">Budapest</option>
                         <option value="debrecen">Debrecen</option>
+                        <option value="pecs">Pécs</option>
+                        <option value="nyiregy">Nyíregyháza</option>
+                        <option value="szia">Konstantinápoly</option>
                     </select>
                     <label className="block mt-4 mb-2 flex items-center gap-2">
                         <FaMoneyBillWave className="text-emerald-500 text-lg" /> Ár (Ft)
