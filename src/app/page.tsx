@@ -4,6 +4,7 @@ import Header from "@/components/header/header";
 import Intro from "@/components/intro/intro";
 import Sidebar from "@/components/ingatlanok/sidebar";
 import Ingatlanok from "@/components/ingatlanok/ingatlanok";
+import Eladas from "@/components/eladas/eladas";
 import Image from "next/image";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
                     </main>
                 </div>
             </div>
+            <Eladas />
         </>
     );
 }
